@@ -16,7 +16,7 @@ header {
 }
 
 nav {
-  displey: fleex;
+  displey: flex;
   justify-content: center;
   gap: 40px;
 }
