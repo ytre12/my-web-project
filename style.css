@@ -30,6 +30,19 @@ nav {
   margin-top: 30px;
 }
 
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: row;
+  }
+}
+
+
 h1 {
   color: var(--primary-color);
 }
