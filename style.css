@@ -14,7 +14,7 @@ body {
   font-family: sans-serif;
 }
 
-nav button {
+flex-btn {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -149,7 +149,7 @@ p {
     align-items: center;
   }
 
-  nav ul {
+  flex-btn {
     flex-wrap: wrap;
     flex-direction: row;
   }
