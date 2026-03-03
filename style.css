@@ -16,7 +16,7 @@ body {
 
 .flex-btn {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 10px;
@@ -127,9 +127,9 @@ button:active {
 .book:hover .cover {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  -webkit-transform: rotatey(-80deg);
-  -ms-transform: rotatey(-80deg);
-  transform: rotatey(-80deg);
+  -webkit-transform: rotateY(-80deg);
+  -ms-transform: rotateY(-80deg);
+  transform: rotateY(-80deg);
 }
 
 p {
@@ -153,6 +153,6 @@ p {
 
   .flex-btn {
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
   }
 }
