@@ -14,7 +14,7 @@ body {
   font-family: sans-serif;
 }
 
-nav ul {
+nav button {
   display: flex;
   flex-direction: column;
   gap: 10px;
